@@ -26,7 +26,6 @@
     <li><a href="#grammatik">§&thinsp;3 Grammatik</a></li>
     <li><a href="#schulausgabe">§&thinsp;4 Schulausgabe</a></li>
     <li><a href="#meme">§&thinsp;5 Meme</a></li>
-    <li><a href="#originaltext">§&thinsp;6 Originaltext</a></li>
   </ul>
   <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
     <span></span><span></span><span></span>
@@ -517,7 +516,7 @@
 <!-- ════════════════════════════════════════
      §5 MEME ZUM MYTHOS
 ════════════════════════════════════════ -->
-<section id="meme" class="section section--olive" aria-labelledby="h-meme">
+<section id="meme" class="section section--meme-bg" aria-labelledby="h-meme">
   <div class="container--wide">
 
     <div class="reveal">
@@ -548,86 +547,6 @@
       </div>
 
     </div>
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════════════
-     §6 ORIGINALTEXT
-════════════════════════════════════════ -->
-<section id="originaltext" class="section section--alt" aria-labelledby="h-orig">
-  <div class="container">
-
-    <div class="reveal">
-      <span class="section-label">§ 6</span>
-      <h2 class="section-title" id="h-orig">Originaltext</h2>
-      <p style="font-size:0.9rem; color:var(--text-muted); font-family:var(--font-caps); letter-spacing:0.08em;">Versus 684&ndash;690 (691)</p>
-      <div class="divider-line"><span>✦</span></div>
-    </div>
-
-    <!-- Toggle buttons -->
-    <div class="text-toggle-bar reveal" data-delay="80" role="group" aria-label="Textansicht wählen">
-      <button class="text-toggle-btn active" data-view="latein">Latein</button>
-      <button class="text-toggle-btn" data-view="deutsch">Deutsch</button>
-      <button class="text-toggle-btn" data-view="parallel">Parallel</button>
-    </div>
-
-    <!-- Latein -->
-    <div class="text-view active" id="view-latein">
-      <div class="original-latin reveal" data-delay="100">
-        <div class="original-line"><span class="original-vnum">684</span><span>Unicus anser erat, minimae custodia villae,</span></div>
-        <div class="original-line"><span class="original-vnum">685</span><span>quem dis hospitibus domini mactare parabant;</span></div>
-        <div class="original-line"><span class="original-vnum">686</span><span>ille celer penna tardos aetate fatigat</span></div>
-        <div class="original-line"><span class="original-vnum">687</span><span>eluditque diu, tandemque est visus ad ipsos</span></div>
-        <div class="original-line"><span class="original-vnum">688</span><span>confugisse deos: superi vetuere necari:</span></div>
-        <div class="original-line"><span class="original-vnum">689</span><span>&bdquo;di que sumus, meritasque luet vicinia poenas</span></div>
-        <div class="original-line"><span class="original-vnum">690</span><span>impia&ldquo; dixerunt; &bdquo;vobis inmunibus huius</span></div>
-        <div class="original-line"><span class="original-vnum">691</span><span>esse mali dabitur [&hellip;]&ldquo;</span></div>
-      </div>
-    </div>
-
-    <!-- Deutsch -->
-    <div class="text-view" id="view-deutsch">
-      <div class="original-german reveal" data-delay="100">
-        <div class="original-line"><span class="original-vnum">684</span><span>Eine einzige Gans hatten sie, die Hüterin des winzigen Häuschens,</span></div>
-        <div class="original-line"><span class="original-vnum">685</span><span>die wollten die Besitzer für die himmlischen Gäste schlachten;</span></div>
-        <div class="original-line"><span class="original-vnum">686</span><span>aber das flinke Federvieh macht die langsamen Alten müde</span></div>
-        <div class="original-line"><span class="original-vnum">687</span><span>und hält sie lange zum Besten; schließlich sah man sie</span></div>
-        <div class="original-line"><span class="original-vnum">688</span><span>bei den Göttern selbst Zuflucht suchen: die Himmlischen verboten, sie zu töten:</span></div>
-        <div class="original-line"><span class="original-vnum">689</span><span>&bdquo;Götter sind wir, und eure gottlose Nachbarschaft</span></div>
-        <div class="original-line"><span class="original-vnum">690</span><span>wird die verdiente Strafe empfangen&ldquo;, sprachen sie; &bdquo;ihr sollt von diesem</span></div>
-        <div class="original-line"><span class="original-vnum">691</span><span>Unheil verschont bleiben [&hellip;]&ldquo;</span></div>
-      </div>
-    </div>
-
-    <!-- Parallel -->
-    <div class="text-view" id="view-parallel">
-      <div class="parallel-grid reveal" data-delay="100">
-        <div class="parallel-col lat">
-          <p class="parallel-col-label">Latein</p>
-          <div class="line">Unicus anser erat, minimae custodia villae,</div>
-          <div class="line">quem dis hospitibus domini mactare parabant;</div>
-          <div class="line">ille celer penna tardos aetate fatigat</div>
-          <div class="line">eluditque diu, tandemque est visus ad ipsos</div>
-          <div class="line">confugisse deos: superi vetuere necari:</div>
-          <div class="line">&bdquo;di que sumus, meritasque luet vicinia poenas</div>
-          <div class="line">impia&ldquo; dixerunt; &bdquo;vobis inmunibus huius</div>
-          <div class="line">esse mali dabitur [&hellip;]&ldquo;</div>
-        </div>
-        <div class="parallel-col de">
-          <p class="parallel-col-label">Deutsch</p>
-          <div class="line">Eine einzige Gans hatten sie, die Hüterin des winzigen Häuschens,</div>
-          <div class="line">die wollten die Besitzer für die himmlischen Gäste schlachten;</div>
-          <div class="line">aber das flinke Federvieh macht die langsamen Alten müde</div>
-          <div class="line">und hält sie lange zum Besten; schließlich sah man sie</div>
-          <div class="line">bei den Göttern selbst Zuflucht suchen: die Himmlischen verboten, sie zu töten:</div>
-          <div class="line">&bdquo;Götter sind wir, und eure gottlose Nachbarschaft</div>
-          <div class="line">wird die verdiente Strafe empfangen&ldquo;, sprachen sie;</div>
-          <div class="line">&bdquo;ihr sollt von diesem Unheil verschont bleiben [&hellip;]&ldquo;</div>
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
 
