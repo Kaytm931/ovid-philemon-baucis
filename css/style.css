@@ -823,10 +823,9 @@ h1, h2, h3, h4 {
 /* ---------- §5 Meme ---------- */
 .section--meme-bg {
   position: relative;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8f/Peter_Paul_Rubens_-_Philemon_und_Baucis_-_KHM.jpg');
+  background-image: url('../images/rubens_bg.jpg');
   background-size: cover;
-  background-position: center 30%;
-  background-attachment: fixed;
+  background-position: center 40%;
 }
 
 .section--meme-bg::before {
